@@ -43,3 +43,12 @@ def analyze_top_performer(records):
     print(f"Top Performer: {top_student['name']}")
     print(f"Highest GWA:   {top_student['gwa']:.2f} (Top of the Class)")
     print("=" * 40)
+
+def main():
+    filename = 'students.txt'
+    data = get_student_data(filename)
+    if data:
+        analyze_top_performer(data)
+
+if __name__ == "__main__":
+    main()
