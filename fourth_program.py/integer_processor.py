@@ -15,3 +15,11 @@ with open('double.txt', 'w') as double_file, open('triple.txt', 'w') as triple_f
                     triple_file.write(f"{cube}\n")
 
         print("Processing complete. Check 'double.txt' and 'triple.txt'.")
+
+    except FileNotFoundError:
+        print(f"Error: The file '{input_filename}' was not found.")
+    except ValueError:
+        print("Error: The file contains non-integer characters.")
+
+
+process_integers('integers.txt')
