@@ -1,0 +1,20 @@
+Juan Dela Cruz, 1.25
+Maria Santos, 1.10
+Peter Parker, 1.50
+Clark Kent, 1.75
+Bruce Wayne, 1.20
+Diana Prince, 1.05
+Barry Allen, 2.00
+Arthur Curry, 2.25
+Victor Stone, 1.45
+Hal Jordan, 1.90
+Tony Stark, 1.15
+Steve Rogers, 1.30
+Natasha Romanoff, 1.20
+Bruce Banner, 1.05
+Thor Odinson, 2.50
+Wanda Maximoff, 1.40
+Vision, 1.00
+Clint Barton, 1.85
+Sam Wilson, 1.60
+Bucky Barnes, 1.70
