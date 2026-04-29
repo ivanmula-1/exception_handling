@@ -15,3 +15,7 @@ evens = [str(n) for n in numbers if n % 2 == 0]
 
         print("Files 'even.txt' and 'odd.txt' created successfully.")
 
+ except FileNotFoundError:
+        print(f"Error: {input_file} not found.")
+    except ValueError:
+        print("Error: Ensure the file contains only integers.")
