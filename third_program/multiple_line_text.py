@@ -9,3 +9,11 @@ def write_multiple_lines():
  file.write(line + "\n")
 
         more_lines = input("Are there more lines y/n? ").lower()
+
+ if more_lines != 'y':
+                    break
+
+        print("\nSuccess! Content has been saved to 'mylife.txt'.")
+
+    except IOError:
+        print("An error occurred while writing to the file.")
