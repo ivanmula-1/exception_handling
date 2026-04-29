@@ -7,3 +7,5 @@ def write_multiple_lines():
                 line = input("Enter line: ")
 
  file.write(line + "\n")
+
+        more_lines = input("Are there more lines y/n? ").lower()
