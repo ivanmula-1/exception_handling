@@ -32,3 +32,14 @@ def analyze_top_performer(records):
     if not records:
         print("No valid student records found to analyze.")
         return
+
+ top_student = min(records, key=lambda student: student['gwa'])
+
+    print("=" * 40)
+    print("       ACADEMIC EXCELLENCE REPORT")
+    print("=" * 40)
+    print(f"Total Students Processed: {len(records)}")
+    print("-" * 40)
+    print(f"Top Performer: {top_student['name']}")
+    print(f"Highest GWA:   {top_student['gwa']:.2f} (Top of the Class)")
+    print("=" * 40)
