@@ -5,3 +5,5 @@ def write_multiple_lines():
             while True:
                 # Ask the user for the text content
                 line = input("Enter line: ")
+
+ file.write(line + "\n")
