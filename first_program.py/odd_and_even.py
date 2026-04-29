@@ -19,3 +19,5 @@ evens = [str(n) for n in numbers if n % 2 == 0]
         print(f"Error: {input_file} not found.")
     except ValueError:
         print("Error: Ensure the file contains only integers.")
+
+split_numbers('numbers.txt')
