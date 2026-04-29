@@ -9,3 +9,9 @@ with open('double.txt', 'w') as double_file, open('triple.txt', 'w') as triple_f
                 if num % 2 == 0:
                     square = num ** 2
                     double_file.write(f"{square}\n")
+
+                else:
+                    cube = num ** 3
+                    triple_file.write(f"{cube}\n")
+
+        print("Processing complete. Check 'double.txt' and 'triple.txt'.")
