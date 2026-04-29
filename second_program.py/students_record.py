@@ -23,3 +23,12 @@ def get_student_data(filepath):
                 student_records.append(record)
             except ValueError:
                 print(f"Skipping line {line_number}: Invalid format or GWA value.")
+
+
+    return student_records
+
+def analyze_top_performer(records):
+    """Determines the student with the best GWA (closest to 1.0) and displays results."""
+    if not records:
+        print("No valid student records found to analyze.")
+        return
