@@ -13,3 +13,13 @@ def get_student_data(filepath):
             line = line.strip()
             if not line:
                 continue
+
+            try:
+                name, gwa_str = line.split(',')
+                record = {
+                    'name': name.strip(),
+                    'gwa': float(gwa_str.strip())
+                }
+                student_records.append(record)
+            except ValueError:
+                print(f"Skipping line {line_number}: Invalid format or GWA value.")
