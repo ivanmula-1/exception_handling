@@ -17,3 +17,6 @@ def write_multiple_lines():
 
     except IOError:
         print("An error occurred while writing to the file.")
+
+if __name__ == "__main__":
+    write_multiple_lines()
